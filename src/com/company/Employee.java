@@ -1,6 +1,6 @@
 package com.company;
 
-public class Employee {
+public abstract class Employee {
 
     private String firstName;
     private String lastName;
@@ -14,4 +14,6 @@ public class Employee {
 
         return this.firstName + " " + this.lastName;
     }
+
+    public abstract double getEarning();
 }

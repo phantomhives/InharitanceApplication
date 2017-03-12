@@ -1,8 +1,7 @@
 package com.company;
 
 
-public class SalaryPlusCommissionEmployee {
-
+public class SalaryPlusCommissionEmployee extends Employee{
 
     private double salary;
     private double commissionRate;
@@ -10,7 +9,7 @@ public class SalaryPlusCommissionEmployee {
 
 
     public SalaryPlusCommissionEmployee(String firstName, String lastName, double salary, double commissionRate, double totalSell) {
-
+        super(firstName, lastName);
         this.salary = salary;
         this.commissionRate = commissionRate;
         this.totalSell = totalSell;
