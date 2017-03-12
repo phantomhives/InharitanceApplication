@@ -10,7 +10,7 @@ public abstract class Employee {
         this.lastName = lastName;
     }
 
-    public String getFullName(){
+    public final String getFullName(){
 
         return this.firstName + " " + this.lastName;
     }
